@@ -1,3 +1,64 @@
-.page1 {
-  background: #ce7a6a
+body.page1 {
+  background: darkcyan;
+  color: white;
+}
+
+body.page2 {
+  background: salmon;
+}
+
+body.page3 {
+  background: darkred;
+  color: gray;
+}
+
+.intro-paragraph {
+  background: midnightblue;
+}
+
+.cars-paragraph {
+  background: steelblue;
+}
+
+.outdoors-paragraph {
+  background: royalblue;
+}
+
+.videogame-pargraph {
+  background: lightseagreen;
+}
+
+span.myname {
+  font-family:cursive;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type:circle;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+nav {
+  border-style: groove;
+  padding: 1em;
+  margin: 0;
+  background-color: cyan;
+}
+
+.page1link:hover {
+  text-decoration: line-through;
+  background-color: orange;
+}
+
+.page2link:hover {
+  text-decoration: line-through;
+  background-color: orange;
+}
+
+.page3link:hover {
+  text-decoration: line-through;
+  background-color: orange;
 }

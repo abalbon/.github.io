@@ -1,3 +1,13 @@
+/* Stylesheet for Online Portfolio Page */
+
+/* keyframes */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Top Title/Nav Bar */
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -5,7 +15,7 @@ ul {
   overflow: hidden;
   background-color: #47BA9B;
   opacity: 70%;
-  -moz-animation: fadein 3s;
+  -moz-animation: fadein 5s;
 }
 
 .headerTitle {
@@ -16,11 +26,7 @@ ul {
   text-decoration: none;
 }
 
-@-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
+/* Profile Photo */
 .photoBox {
     display: flex;
     flex-direction: column;
@@ -28,12 +34,14 @@ ul {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 10px;
+    -moz-animation: fadein 5s;
 }
 .mainPhoto {
     border-radius: 80%;
     width: 200px;
 }
 
+/* Short Intro Section */
 .introBox {
     display: flex;
     align-items: center;
@@ -54,6 +62,7 @@ ul {
     background-color: #F4F6F2;
 }
 
+/* Contact Me Section */
 .contactBox {
   display: flex;
   align-items: center;
@@ -72,8 +81,24 @@ ul {
   background-color: #F4F6F2;
 }
 
+/* Resume Download Button */
 .downloadBox {
   margin: 10px;
   color: #47BA9B;
   opacity: 70%;
+}
+
+/* Update Box */
+.updateBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.updateMsg {
+  color: #f44336;
+  background-color: #f4f6f2;
+  opacity: 70%;
+  width: 50%;
+  text-align: center;
 }

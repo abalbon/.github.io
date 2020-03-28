@@ -21,8 +21,9 @@
         <h2 id="introHeading">Welcome</h2>
         <p id="introBody">
           Hello, my name is Albert Balbon and Welcome to my Online Portfolio Page. Here you will
-          find a short introduction about myself, my resume, contact information, and
-          project portfolio.
+          find a short introduction about myself, my resume, and contact information. I will update
+          this page as I go and will keep adding more elements to showcase what I've learned throughout
+          my studies.
         </p>
         <h2 id="introHeading">Short Introduction</h3>
         <p id="introBody">
@@ -37,6 +38,25 @@
           some photos of my other interests.
         </p>
       </div>
+      <div class="photoBoard w3-animate-bottom">
+        <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20% }'>
+          <div class="grid-sizer"></div>
+          <div class="grid-item"><img src="img/IMG_0047.jpeg" alt="Photo 1"></div>
+          <div class="grid-item"><img src="img/IMG_0181.jpeg" alt="Photo 2"></div>
+          <div class="grid-item"><img src="img/IMG_0192.jpeg" alt="Photo 3"></div>
+          <div class="grid-item"><img src="img/IMG_0303.jpeg" alt="Photo 4"></div>
+          <div class="grid-item"><img src="img/IMG_0480.jpg" alt="Photo 5"></div>
+          <div class="grid-item"><img src="img/IMG_0696.jpg" alt="Photo 6"></div>
+          <div class="grid-item"><img src="img/IMG_0902.jpeg" alt="Photo 7"></div>
+          <div class="grid-item"><img src="img/IMG_0999.jpeg" alt="Photo 8"></div>
+          <div class="grid-item"><img src="img/IMG_1371.jpeg" alt="Photo 9"></div>
+          <div class="grid-item"><img src="img/IMG_1873.jpg" alt="Photo 10"></div>
+          <div class="grid-item"><img src="img/IMG_2262.jpg" alt="Photo 11"></div>
+          <div class="grid-item"><img src="img/IMG_2285.jpg" alt="Photo 12"></div>
+
+        </div>
+
+      </div>
       <div class="contactBox w3-animate-bottom">
         <h2 id="contactHeading">Contact Me</h2>
         <ul id="contactList">
@@ -50,4 +70,20 @@
       </div>
     </div>
   </body>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+  <script>
+    // external js: masonry.pkgd.js, imagesloaded.pkgd.js
+
+    // init Masonry after all images have loaded
+    var $grid = $('.grid').imagesLoaded( function() {
+      $grid.masonry({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        columnWidth: '.grid-sizer'
+      }); 
+    });
+
+  </script>
+
 </html>

@@ -115,8 +115,6 @@ ul {
 /* force scrollbar */
 html { overflow-y: scroll; }
 
-body { font-family: sans-serif; }
-
 /* ---- grid ---- */
 
 .grid {
@@ -134,7 +132,7 @@ body { font-family: sans-serif; }
 
 .grid-sizer,
 .grid-item {
-  width: 25%;
+  width: 33.333%;
 }
 
 .grid-item:hover{
@@ -143,6 +141,7 @@ body { font-family: sans-serif; }
 
 .grid-item {
   float: left;
+  margin-bottom: 5px;
 }
 
 .grid-item img {

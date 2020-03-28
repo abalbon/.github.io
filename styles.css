@@ -6,21 +6,12 @@ ul {
     background-color: #47BA9B;
   }
   
-  li {
-    float: left;
-  }
-  
-  li a {
+  .headerTitle {
     display: block;
-    color: white;
+    color: #F4F6F2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #9E9686;
   }
 
   .photoBox {
@@ -28,7 +19,8 @@ ul {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding-top: 100px;
+      padding-top: 20px;
+      padding-bottom: 10px;
   }
   .mainPhoto {
       border-radius: 80%;
@@ -41,9 +33,42 @@ ul {
       flex-direction: column;
   }
 
+  .introBox #introHeading {
+    padding: 0px;
+    border: 10px;
+    margin: 10px;
+  }
+
   .introBox #introBody {
       width: 65%;
       padding: 20px;
+      margin: 0px;
       border-radius: 10%;
       background-color: #F4F6F2;
+  }
+
+  .contactBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #contactHeading {
+    padding-top: 20px;
+    margin: 5px;
+  }
+
+  #contactList {
+    text-align: center;
+    width: 20%;
+    border-radius: 10%;
+    background-color: #F4F6F2;
+  }
+
+  .downloadBox {
+    margin: 10px;
+  }
+
+  #downloadLink {
+    color: #47BA9B;
   }

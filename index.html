@@ -17,7 +17,7 @@
       <div class="photoBox">
         <img class="mainPhoto z-depth-4" src="img/IMG_0978.jpeg" alt="Profile Photo">
       </div>
-      <div class="introBox w3-animate-bottom">
+      <div class="introBox w3-animate-left">
         <h2 id="introHeading">Welcome</h2>
         <p id="introBody">
           Hello, my name is Albert Balbon and Welcome to my Online Portfolio Page. Here you will
@@ -25,7 +25,7 @@
           this page as I go and will keep adding more elements to showcase what I've learned throughout
           my studies.
         </p>
-        <h2 id="introHeading">Short Introduction</h3>
+        <h2 id="introHeading">About Me</h3>
         <p id="introBody">
           I am an aspiring Software Engineer currently studying to get my Bachelor's Degree
           in Computer Science at California State University, Fullerton. My biggest interest
@@ -35,24 +35,24 @@
           This has given me the opportunity to work with industry standard software and hardware components.
           Outside of Computer Science, I love outdoor activities such as hiking and camping. Other
           interests that I have also include motorsports and cars in general. In this page you may find
-          some photos of my other interests.
+          some photos of my interests.
         </p>
       </div>
-      <div class="photoBoard w3-animate-bottom">
+      <div class="photoBoard w3-animate-opacity">
         <div class="grid">
           <div class="grid-sizer"></div>
-          <div class="grid-item"><img src="img/IMG_0047.jpeg" alt="Photo 1"></div>
-          <div class="grid-item"><img src="img/IMG_0181.jpeg" alt="Photo 2"></div>
-          <div class="grid-item"><img src="img/IMG_0192.jpeg" alt="Photo 3"></div>
-          <div class="grid-item"><img src="img/IMG_0303.jpeg" alt="Photo 4"></div>
-          <div class="grid-item"><img src="img/IMG_0480.JPG" alt="Photo 5"></div>
-          <div class="grid-item"><img src="img/IMG_0696.JPG" alt="Photo 6"></div>
-          <div class="grid-item"><img src="img/IMG_0902.jpeg" alt="Photo 7"></div>
-          <div class="grid-item"><img src="img/IMG_0999.jpeg" alt="Photo 8"></div>
-          <div class="grid-item"><img src="img/IMG_1371.jpeg" alt="Photo 9"></div>
-          <div class="grid-item"><img src="img/IMG_1873.JPG" alt="Photo 10"></div>
-          <div class="grid-item"><img src="img/IMG_2262.JPG" alt="Photo 11"></div>
-          <div class="grid-item"><img src="img/IMG_2285.JPG" alt="Photo 12"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_0047.jpeg" alt="Photo 1"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_0181.jpeg" alt="Photo 2"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_0192.jpeg" alt="Photo 3"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_0303.jpeg" alt="Photo 4"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_0480.JPG" alt="Photo 5"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_0696.JPG" alt="Photo 6"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_0902.jpeg" alt="Photo 7"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_0999.jpeg" alt="Photo 8"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_1371.jpeg" alt="Photo 9"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_1873.JPG" alt="Photo 10"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_2262.JPG" alt="Photo 11"></div>
+          <div class="grid-item"><img class="boardImg" src="img/IMG_2285.JPG" alt="Photo 12"></div>
 
         </div>
 
@@ -71,23 +71,4 @@
   </body>
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
-  <script>
-    /*
-    // external js: masonry.pkgd.js, imagesloaded.pkgd.js
-    // init Masonry
-    var grid = document.querySelector('.grid');
-
-    var msnry = new Masonry( grid, {
-      itemSelector: '.grid-item',
-      columnWidth: '.grid-sizer',
-      percentPosition: true
-    });
-
-    imagesLoaded( grid ).on( 'progress', function() {
-      // layout Masonry after each image loads
-      msnry.layout();
-    });
-    */
-  </script>
-
 </html>

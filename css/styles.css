@@ -67,6 +67,7 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column;
+  animation-delay: 4s;
 }
 
 #contactHeading {
@@ -104,6 +105,7 @@ ul {
   border-radius: 3%;
 }
 
+/* Masonry Board */
 .photoBoard{
   display: flex;
   align-items: center;
@@ -119,6 +121,8 @@ html { overflow-y: scroll; }
 
 .grid {
   margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /* clear fix */
@@ -142,6 +146,10 @@ html { overflow-y: scroll; }
 .grid-item {
   float: left;
   margin-bottom: 5px;
+}
+
+.boardImg {
+  max-height: 70%;
 }
 
 .grid-item img {

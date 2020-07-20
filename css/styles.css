@@ -125,13 +125,6 @@ html { overflow-y: scroll; }
   margin-right: 5px;
 }
 
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
 /* ---- .grid-item ---- */
 
 .grid-sizer,

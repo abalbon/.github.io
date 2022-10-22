@@ -109,8 +109,9 @@ ul {
 .photoBoard{
   display: grid;
   gap: 10px;
-  align-items: center;
-  flex-direction: column;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: masonry;
+  masonry-auto-flow: next ;
 }
 
 * { box-sizing: border-box; }

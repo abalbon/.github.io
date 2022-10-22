@@ -107,11 +107,8 @@ ul {
 
 /* Masonry Board */
 .photoBoard{
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  grid-template-rows: masonry;
-  masonry-auto-flow: next ;
+  column-count: 4;
+  column-gap: 1em;
 }
 
 * { box-sizing: border-box; }
@@ -122,9 +119,10 @@ html { overflow-y: scroll; }
 /* ---- grid ---- */
 
 .grid {
-  margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
 }
 
 /* ---- .grid-item ---- */

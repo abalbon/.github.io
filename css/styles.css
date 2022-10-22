@@ -125,7 +125,7 @@ html { overflow-y: scroll; }
   width: 100%;
 }
 
-/* ---- .grid-item ---- */
+/* ---- .grid-item ---- 
 
 .grid-sizer,
 .grid-item {
@@ -148,4 +148,4 @@ html { overflow-y: scroll; }
 .grid-item img {
   display: block;
   width: 100%;
-}
+}*/
